@@ -1,0 +1,225 @@
+
+/* Global Styles */
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333333;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #f3eeee;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ffd700;
+  }
+
+/* Banner section */
+#banner {
+    /* background-image: linear-gradient(to bottom, #ff7f50, #ff6347); */
+    /* background-color: rgb(209, 91, 48); */
+    background: url("https://www.tv-calling.com/wp-content/uploads/2017/10/computer-blue-opacity-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #eff1e9;
+    padding: 100px 0;
+}
+
+#banner h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#banner .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5a95b9;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#banner .btn:hover {
+    background-color: #44a96c;
+}
+
+#banner .btn:visited {
+    color: rgb(98, 28, 196);
+}
+
+#banner .btn:active {
+    background-color: #9ed032;
+}
+/* About section */
+
+#about {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+#about h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.bio h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.bio p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Project section */
+
+#projects {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#projects h2 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.project-image {
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.project-info {
+    flex-grow: 1;
+}
+
+.project-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.project-info .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: #333;
+    text-decoration: none;
+
+
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.project-info .btn:hover {
+    background-color: #fff;
+}
+
+/* Contact section */
+
+#contact {
+    background-color: #333;
+    padding: 40px 0;
+}
+
+#contact h2 {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.contact-info i {
+    font-size: 36px;
+    color: #ffd700;
+    margin-bottom: 10px;
+}
+
+.contact-info h3 {
+    color: #ffd700;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
